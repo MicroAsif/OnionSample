@@ -1,0 +1,12 @@
+C:\Assignment\OnionSample\OnionSample.Infrastructure\bin\Debug\OnionSample.Infrastructure.dll.config
+C:\Assignment\OnionSample\OnionSample.Infrastructure\bin\Debug\OnionSample.Infrastructure.dll
+C:\Assignment\OnionSample\OnionSample.Infrastructure\bin\Debug\OnionSample.Infrastructure.pdb
+C:\Assignment\OnionSample\OnionSample.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Assignment\OnionSample\OnionSample.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Assignment\OnionSample\OnionSample.Infrastructure\bin\Debug\OnionSample.Domain.dll
+C:\Assignment\OnionSample\OnionSample.Infrastructure\bin\Debug\OnionSample.Domain.pdb
+C:\Assignment\OnionSample\OnionSample.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Assignment\OnionSample\OnionSample.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Assignment\OnionSample\OnionSample.Infrastructure\obj\Debug\OnionSample.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Assignment\OnionSample\OnionSample.Infrastructure\obj\Debug\OnionSample.Infrastructure.dll
+C:\Assignment\OnionSample\OnionSample.Infrastructure\obj\Debug\OnionSample.Infrastructure.pdb

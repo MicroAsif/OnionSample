@@ -1,0 +1,14 @@
+C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Dependency.dll.config
+C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Dependency.dll
+C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Dependency.pdb
+C:\Assignment\OnionSample\OnionSample.Dependency\obj\Debug\OnionSample.Infrastructure.Dependency.csprojResolveAssemblyReference.cache
+C:\Assignment\OnionSample\OnionSample.Dependency\obj\Debug\OnionSample.Dependency.dll
+C:\Assignment\OnionSample\OnionSample.Dependency\obj\Debug\OnionSample.Dependency.pdb
+C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\Ninject.dll
+C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Domain.dll
+C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Infrastructure.dll
+C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\EntityFramework.dll
+C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Domain.pdb
+C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Infrastructure.pdb
+C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\Ninject.xml
+C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\EntityFramework.xml
