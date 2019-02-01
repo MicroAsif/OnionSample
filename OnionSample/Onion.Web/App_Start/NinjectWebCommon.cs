@@ -5,6 +5,7 @@ using Ninject;
 using Ninject.Web.Common;
 using Ninject.Web.Common.WebHost;
 using Onion.Web;
+using OnionSample.Dependency;
 
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(NinjectWebCommon), "Start")]
 [assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(NinjectWebCommon), "Stop")]
@@ -61,8 +62,8 @@ namespace Onion.Web
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            //var dependencyServiceRegister = new DependencyServiceRegister();
-            //dependencyServiceRegister.Register(kernel);
+            var dependencyServiceRegister = new DependencyServiceRegister();
+            dependencyServiceRegister.Register(kernel);
         }
     }
 }

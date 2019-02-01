@@ -12,3 +12,17 @@ C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Domain.pd
 C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Infrastructure.pdb
 C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\Ninject.xml
 C:\Assignment\OnionSample\OnionSample.Dependency\bin\Debug\EntityFramework.xml
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Dependency.dll.config
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Dependency.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Dependency.pdb
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\bin\Debug\Ninject.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Domain.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Infrastructure.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\bin\Debug\EntityFramework.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Domain.pdb
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\bin\Debug\OnionSample.Infrastructure.pdb
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\bin\Debug\Ninject.xml
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\bin\Debug\EntityFramework.xml
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\obj\Debug\OnionSample.Infrastructure.Dependency.csprojResolveAssemblyReference.cache
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\obj\Debug\OnionSample.Dependency.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Dependency\obj\Debug\OnionSample.Dependency.pdb

@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,11 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entity\Base\BaseEntity.cs" />
-    <Compile Include="Entity\User.cs" />
-    <Compile Include="Entity\UserProfile.cs" />
+    <Compile Include="Entity\Company.cs" />
+    <Compile Include="Entity\Medicine.cs" />
     <Compile Include="Interfaces\Repository\Base\IBaseRepository.cs" />
-    <Compile Include="Interfaces\Repository\IUserProfileRepository.cs" />
-    <Compile Include="Interfaces\Repository\IUserRepository.cs" />
+    <Compile Include="Interfaces\Repository\ICompanyRepository.cs" />
+    <Compile Include="Interfaces\Repository\IMedicineRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

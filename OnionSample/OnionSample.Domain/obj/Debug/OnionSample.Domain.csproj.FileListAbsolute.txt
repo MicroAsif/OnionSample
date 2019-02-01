@@ -3,3 +3,8 @@ C:\Assignment\OnionSample\OnionSample.Domain\bin\Debug\OnionSample.Domain.pdb
 C:\Assignment\OnionSample\OnionSample.Domain\obj\Debug\OnionSample.Domain.csprojResolveAssemblyReference.cache
 C:\Assignment\OnionSample\OnionSample.Domain\obj\Debug\OnionSample.Domain.dll
 C:\Assignment\OnionSample\OnionSample.Domain\obj\Debug\OnionSample.Domain.pdb
+C:\dev\OnionSample\OnionSample\OnionSample.Domain\bin\Debug\OnionSample.Domain.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Domain\bin\Debug\OnionSample.Domain.pdb
+C:\dev\OnionSample\OnionSample\OnionSample.Domain\obj\Debug\OnionSample.Domain.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Domain\obj\Debug\OnionSample.Domain.pdb
+C:\dev\OnionSample\OnionSample\OnionSample.Domain\obj\Debug\OnionSample.Domain.csprojResolveAssemblyReference.cache

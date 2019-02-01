@@ -9,8 +9,7 @@ using OnionSample.Infrastructure.Repository.Base;
 
 namespace OnionSample.Infrastructure.Repository
 {
-    public class UserRepository : BaseRepository<User>, IUserRepository
+    public class CompanyRepository : BaseRepository<Company>, ICompanyRepository
     {
-
     }
 }

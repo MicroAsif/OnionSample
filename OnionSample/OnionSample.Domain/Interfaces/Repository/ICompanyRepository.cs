@@ -8,7 +8,7 @@ using OnionSample.Domain.Interfaces.Repository.Base;
 
 namespace OnionSample.Domain.Interfaces.Repository
 {
-    public interface IUserRepository : IBaseRepository<User>
+    public interface ICompanyRepository : IBaseRepository<Company>
     {
     }
 }

@@ -10,7 +10,7 @@ using OnionSample.Infrastructure.Repository.Base;
 
 namespace OnionSample.Infrastructure.Repository
 {
-    public class UserProfileRepository : BaseRepository<UserProfile>, IUserProfileRepository
+    public class MedicineRepository : BaseRepository<Medicine>, IMedicineRepository
     {
     }
 }

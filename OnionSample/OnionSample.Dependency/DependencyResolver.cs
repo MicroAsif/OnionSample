@@ -24,8 +24,8 @@ namespace OnionSample.Dependency
     {
         public void Register(IKernel kernel)
         {
-            kernel.Bind<IUserRepository>().To<UserRepository>();
-            kernel.Bind<IUserProfileRepository>().To<UserProfileRepository>();
+            kernel.Bind<IMedicineRepository>().To<MedicineRepository>();
+            kernel.Bind<ICompanyRepository>().To<CompanyRepository>();
         }
     }
 }
