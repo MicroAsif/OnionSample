@@ -6,7 +6,6 @@ using OnionSample.Domain.Interfaces.Repository;
 using OnionSample.Infrastructure.Repository;
 using WebApiContrib.IoC.Ninject;
 
-
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(Onion.Web.App_Start.NinjectWebCommon), "Start")]
 [assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(Onion.Web.App_Start.NinjectWebCommon), "Stop")]
 
@@ -74,8 +73,6 @@ namespace Onion.Web.App_Start
         {
             var dependencyServiceRegister = new DependencyServiceRegister();
             dependencyServiceRegister.Register(kernel);
-
-            
         }
     }
 }
