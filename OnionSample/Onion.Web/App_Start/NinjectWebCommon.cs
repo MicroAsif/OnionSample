@@ -1,17 +1,25 @@
-﻿using System;
-using System.Web;
-using Microsoft.Web.Infrastructure.DynamicModuleHelper;
-using Ninject;
-using Ninject.Web.Common;
+﻿using System.Web.Http;
 using Ninject.Web.Common.WebHost;
-using Onion.Web;
+using Ninject.Web.Mvc;
 using OnionSample.Dependency;
+using OnionSample.Domain.Interfaces.Repository;
+using OnionSample.Infrastructure.Repository;
+using WebApiContrib.IoC.Ninject;
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(NinjectWebCommon), "Start")]
-[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(NinjectWebCommon), "Stop")]
 
-namespace Onion.Web
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(Onion.Web.App_Start.NinjectWebCommon), "Start")]
+[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(Onion.Web.App_Start.NinjectWebCommon), "Stop")]
+
+namespace Onion.Web.App_Start
 {
+    using System;
+    using System.Web;
+
+    using Microsoft.Web.Infrastructure.DynamicModuleHelper;
+
+    using Ninject;
+    using Ninject.Web.Common;
+
     public static class NinjectWebCommon
     {
         private static readonly Bootstrapper bootstrapper = new Bootstrapper();
@@ -46,6 +54,8 @@ namespace Onion.Web
                 kernel.Bind<Func<IKernel>>().ToMethod(ctx => () => new Bootstrapper().Kernel);
                 kernel.Bind<IHttpModule>().To<HttpApplicationInitializationHttpModule>();
 
+                GlobalConfiguration.Configuration.DependencyResolver = new NinjectResolver(kernel);
+
                 RegisterServices(kernel);
                 return kernel;
             }
@@ -64,6 +74,8 @@ namespace Onion.Web
         {
             var dependencyServiceRegister = new DependencyServiceRegister();
             dependencyServiceRegister.Register(kernel);
+
+            
         }
     }
 }

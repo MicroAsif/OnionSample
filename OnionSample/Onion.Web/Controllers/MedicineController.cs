@@ -5,7 +5,6 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using OnionSample.Domain.Interfaces.Repository;
-using OnionSample.Infrastructure.Repository;
 
 namespace Onion.Web.Controllers
 {
@@ -13,14 +12,15 @@ namespace Onion.Web.Controllers
     {
         private readonly IMedicineRepository _medicineRepository;
 
-        public MedicineController()
+        public MedicineController(IMedicineRepository medicineRepository)
         {
-            _medicineRepository = new MedicineRepository();
+            _medicineRepository = medicineRepository;
         }
 
+        [HttpGet]
         public IHttpActionResult Get()
         {
-            return Ok(_medicineRepository.All());
+            return Ok(_medicineRepository.All().ToList());
         }
     }
 }
