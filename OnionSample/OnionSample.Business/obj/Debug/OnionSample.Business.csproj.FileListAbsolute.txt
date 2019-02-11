@@ -1,0 +1,11 @@
+C:\dev\OnionSample\OnionSample\OnionSample.Business\bin\Debug\OnionSample.Business.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Business\bin\Debug\OnionSample.Business.pdb
+C:\dev\OnionSample\OnionSample\OnionSample.Business\bin\Debug\OnionSample.Domain.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Business\bin\Debug\OnionSample.Infrastructure.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Business\bin\Debug\EntityFramework.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Business\bin\Debug\OnionSample.Domain.pdb
+C:\dev\OnionSample\OnionSample\OnionSample.Business\bin\Debug\OnionSample.Infrastructure.pdb
+C:\dev\OnionSample\OnionSample\OnionSample.Business\bin\Debug\EntityFramework.xml
+C:\dev\OnionSample\OnionSample\OnionSample.Business\obj\Debug\OnionSample.Business.csprojResolveAssemblyReference.cache
+C:\dev\OnionSample\OnionSample\OnionSample.Business\obj\Debug\OnionSample.Business.dll
+C:\dev\OnionSample\OnionSample\OnionSample.Business\obj\Debug\OnionSample.Business.pdb

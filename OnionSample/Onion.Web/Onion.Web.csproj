@@ -105,6 +105,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.3\lib\net45\System.Web.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -116,6 +120,10 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\lib\net45\System.Web.Http.Cors.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -177,6 +185,7 @@
   <ItemGroup>
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\CompanyController.cs" />
     <Compile Include="Controllers\MedicineController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -200,17 +209,21 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OnionSample.Dependency\OnionSample.Infrastructure.Dependency.csproj">
+    <ProjectReference Include="..\OnionSample.Business\OnionSample.Business.csproj">
+      <Project>{0be64038-9869-44ed-b1aa-5aa34125bc19}</Project>
+      <Name>OnionSample.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnionSample.Dependency\OnionSample.Dependency.csproj">
       <Project>{D7070599-60E9-4E2B-807D-301BB1F37750}</Project>
-      <Name>OnionSample.Infrastructure.Dependency</Name>
+      <Name>OnionSample.Dependency</Name>
     </ProjectReference>
     <ProjectReference Include="..\OnionSample.Domain\OnionSample.Domain.csproj">
       <Project>{3fddd2e9-a4d9-4f9d-8a76-ccffd0669c76}</Project>
       <Name>OnionSample.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\OnionSample.Infrastructure\OnionSample.Infrastructure.csproj">
+    <ProjectReference Include="..\OnionSample.Infrastructure\OnionSample.Data.csproj">
       <Project>{e10a543c-84df-42a5-946a-682b63bed3e3}</Project>
-      <Name>OnionSample.Infrastructure</Name>
+      <Name>OnionSample.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

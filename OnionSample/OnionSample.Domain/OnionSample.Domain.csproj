@@ -44,6 +44,7 @@
     <Compile Include="Entity\Base\BaseEntity.cs" />
     <Compile Include="Entity\Company.cs" />
     <Compile Include="Entity\Medicine.cs" />
+    <Compile Include="Interfaces\Business\IMedicineLogic.cs" />
     <Compile Include="Interfaces\Repository\Base\IBaseRepository.cs" />
     <Compile Include="Interfaces\Repository\ICompanyRepository.cs" />
     <Compile Include="Interfaces\Repository\IMedicineRepository.cs" />

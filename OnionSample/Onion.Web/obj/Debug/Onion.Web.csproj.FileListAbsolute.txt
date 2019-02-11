@@ -72,3 +72,8 @@ C:\dev\OnionSample\OnionSample\Onion.Web\obj\Debug\Onion.Web.dll
 C:\dev\OnionSample\OnionSample\Onion.Web\obj\Debug\Onion.Web.pdb
 C:\dev\OnionSample\OnionSample\Onion.Web\bin\OnionSample.Dependency.dll
 C:\dev\OnionSample\OnionSample\Onion.Web\bin\OnionSample.Dependency.pdb
+C:\dev\OnionSample\OnionSample\Onion.Web\bin\OnionSample.Business.dll
+C:\dev\OnionSample\OnionSample\Onion.Web\bin\OnionSample.Business.pdb
+C:\dev\OnionSample\OnionSample\Onion.Web\bin\System.Web.Cors.dll
+C:\dev\OnionSample\OnionSample\Onion.Web\bin\System.Web.Http.Cors.dll
+C:\dev\OnionSample\OnionSample\Onion.Web\bin\System.Web.Http.Cors.xml

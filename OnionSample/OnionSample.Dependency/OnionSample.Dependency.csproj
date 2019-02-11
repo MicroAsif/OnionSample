@@ -52,13 +52,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\OnionSample.Business\OnionSample.Business.csproj">
+      <Project>{0be64038-9869-44ed-b1aa-5aa34125bc19}</Project>
+      <Name>OnionSample.Business</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OnionSample.Domain\OnionSample.Domain.csproj">
       <Project>{3fddd2e9-a4d9-4f9d-8a76-ccffd0669c76}</Project>
       <Name>OnionSample.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\OnionSample.Infrastructure\OnionSample.Infrastructure.csproj">
+    <ProjectReference Include="..\OnionSample.Infrastructure\OnionSample.Data.csproj">
       <Project>{e10a543c-84df-42a5-946a-682b63bed3e3}</Project>
-      <Name>OnionSample.Infrastructure</Name>
+      <Name>OnionSample.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
