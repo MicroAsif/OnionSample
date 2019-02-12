@@ -29,6 +29,19 @@ namespace Onion.Web.Controllers
         {
             return Ok(_medicineRepository.All().Include(x=>x.Company).ToList());
         }
+        [HttpGet]
+        public IHttpActionResult Get(int id)
+        {
+            var medicine = _medicineRepository.Find(id);
+            return Ok(medicine);
+        }
+       [HttpDelete]
+        public async Task<IHttpActionResult> Delete(int id)
+        {
+             await _medicineRepository.Remove(id);
+            return Ok(id);
+        }
+
         [HttpPost]
         public async Task<IHttpActionResult> Post(Medicine model)
         {
